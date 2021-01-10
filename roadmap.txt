@@ -1,39 +1,17 @@
 Anabasis visualisation:
 
-First pass:
-- Map out the path
-- Show key events (e.g. battles, negotiations) and places
-
-Second pass:
-- Tie together locations and time
+TODO:
 - Reveal path over time using slider
-- Show detailed information when hovering/clicking on path/event
-
-Polish:
-- Track remaining troop numbers at events/time
+- Define start day based on dropdown (early, late, proposed start) and show current date based on start day
+- Custom markers per event type
 - Only show new cities and events when "found"
 - Interpolate path between two tracked points
+- Don't show/hover points that are purely for path accuracy, not events
+- Track remaining troop numbers at events/time
 - Bibliography references
-
-Implementation:
-- Data definition:
-	- Latitude + longitude
-	- DateTime
-	- Event type
-	- Event name
-	- Details
-	- Troop count
-	- Bibliography
 
 - Data collection
 	- CSV format, e.g. using google sheets
 	- Latitude+longitude data based on research paper, web search and some guesswork with google maps
 	- Time stamps from research paper
 	- Troop count estimates and bibliography references from source material
-
-- Map creation:
-	- Jupyter lab
-	- Geopandas for geospatial data, with a time column
-	- Map visualisation with contextily, cartopy or other
-	- Combined visualisation with plotly? Or matplotlib+shapely with contextily/cartopy?
-		- I think I'll want to use multiple libraries for more control?
