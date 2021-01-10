@@ -1,7 +1,6 @@
 Anabasis visualisation:
 
 TODO:
-- Reveal path over time using slider
 - Define start day based on dropdown (early, late, proposed start) and show current date based on start day
 - Custom markers per event type
 - Only show new cities and events when "found"
