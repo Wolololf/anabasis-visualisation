@@ -1,14 +1,15 @@
 Anabasis visualisation:
 
 TODO:
-- Show current date based on start day
 - Custom markers per event type
-- Only show new cities and events when "found"
-- Interpolate path between two tracked points
 - Don't show/hover points that are purely for path accuracy, not events
 - Track remaining troop numbers at events/time
 - Bibliography references
 - Support alternative routes and starting dates
+
+Bugs:
+- Slider jitters in and out of view, progress snaps back and forth
+- If start and end date are equal, only show one?
 
 - Data collection
 	- CSV format, e.g. using google sheets
