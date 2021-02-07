@@ -1,14 +1,13 @@
 Anabasis visualisation:
 
 TODO:
-- Custom markers per event type
 - Don't show/hover points that are purely for path accuracy, not events
+- Split up code into dataframe generation, rendering, interactivity and composition
 - Track remaining troop numbers at events/time
 - Bibliography references
 - Support alternative routes and starting dates
 
 Bugs:
-- Slider jitters in and out of view, progress snaps back and forth
 - If start and end date are equal, only show one?
 
 - Data collection
