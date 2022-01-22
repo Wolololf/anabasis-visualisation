@@ -1,0 +1,7 @@
+voila
+pillow<7
+packaging
+ipywidgets==7.5.1
+geopandas
+fiona>=1.8
+pyproj>=2.2.0
